@@ -14,7 +14,7 @@ pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.11.0-
 # pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.11.0rc2-py3-none-any.whl
 # pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl
 
-pip install numpy
+pip install numpy==1.15.0
 
 # python train_linkpred.py -d twitter --bases 30 --hidden 16 --l2norm 5e-4 --testing
 
